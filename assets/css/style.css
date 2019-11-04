@@ -1,0 +1,323 @@
+html {
+    box-sizing:border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    padding: 20px 30px 0 30px;
+    margin: auto;
+}
+
+/* nav bar */
+nav {
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-nav{
+    float: left;
+    flex-direction: inherit;
+}
+.navbar-brand{
+    color: black;
+    display: flex;
+}
+.brand{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.nav-item{
+    font-weight: 300;
+    color: black;
+    margin-right: 15px;
+}
+a.nav-link:hover {
+    border-bottom: solid #f3aa6a;
+    color: black;
+}
+.phone {
+    color: #52a1b9;
+}
+
+/* feature area */
+.top{
+    background: url("../images/bgtop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 670px;
+    width: 100%;
+}
+
+.caption{
+    color: black;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25rem;
+    font-weight: 300;
+    margin-top: 75px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+.quote{
+    font-size: 1.75rem;
+    letter-spacing: 5px;
+    line-height: normal;
+}
+
+.highlight{
+    background: black;
+    color: white;
+}
+.regular{
+    /* float: left; */
+    font-weight: 400;
+}
+.color{
+    color: #28a2be;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    float: left; 
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 45px 25px 0 0; 
+}
+
+.button {
+    background: linear-gradient(to right, #e15e26, #ed9854 ); 
+    position: relative;
+    z-index: 1;
+    margin-top: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    border-radius: 2em;
+    padding: 10px 0 10px 0; 
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    text-align: center;
+}
+
+.button:hover { 
+    background: linear-gradient(to right, #00537e, #00bccd);
+}
+
+/* procedure sections */
+.procedures{
+    background: linear-gradient(to right, #00537e, #00bccd);
+    z-index: 1;
+    float: left;
+    width: 340px;
+    position: relative; 
+    border-radius: 2em;
+    text-align: center;
+    align-content: center;
+    border-bottom-left-radius: 0px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    top: -25px;
+}
+
+.procedures:first-child{
+    margin-left: none;
+}
+
+.procedures:hover{
+    background: linear-gradient(to right, #e15e26, #ed9854);
+}
+.procedures:hover .learnmore{
+    color: #dfa680;
+}
+
+
+.image{
+    border: white solid;
+    padding: 20px;
+    border-radius: 100%;
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-family:'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.information{
+    font-family: 'Lato', sans-serif;
+    margin: auto 50px auto 50px;
+    font-size: 16px;
+}
+
+.learnmore{
+    font-family:'Oswald', sans-serif;
+    color: #077fa3;
+    background: white;
+    border-radius: 25px / 17px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    padding: 10px 0 10px 0; 
+    margin: 20px auto 20px auto;
+}
+
+/* contact form */
+.bottom{ 
+    background: url("../images/bgcontact.png");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100% 100%;
+    height: 670px;
+    width: 100%;
+    margin-top: 500px;
+}
+.contactinfo{
+    background: url("../images/greenbox.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    margin-top: 45px;
+}
+
+.headingcontact{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    float: left;
+    margin: 75px auto auto 75px;
+    color: white;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    width: 35%;
+
+}
+.bold{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.border{
+    fill: white;
+    background: white;
+    width: 150px;
+    height: 5px;
+    margin: 15px 0 15px 0;
+}
+.description{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.airplane{
+    z-index: 1;
+    position: absolute;
+    left: 375px;
+}
+
+.form{
+    background: white;
+    width: 400px;
+    height: 500px;
+    float: right;
+    z-index: 0;
+    top: 45px;
+    right: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form {
+    margin: 45px 25px 25px 25px;
+    font-family: 'Lato', sans-serif;
+}
+.contact-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+span.phone {
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+
+.message{
+    padding-bottom: 75px;
+}
+
+input.button{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    top: -25px;
+}
+
+/* footer  */
+
+.footer{
+    width: 100%;
+    background-color: #2e2f31;
+    clear: both;
+    background-size: 100% 100%;
+    height: 300px;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.logo{
+    margin: auto;
+}
+.logo img{
+    float: left;
+}
+
+div.logo.brand{
+    color: white;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    margin: 15px 0 0 5px;
+}
+
+.address{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.separator{
+    fill: white;
+    background: white;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.copyright{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+}
+
+.socials{
+    margin: auto;
+}
